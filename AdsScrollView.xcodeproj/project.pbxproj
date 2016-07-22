@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2886FFB61D4224BA0033FEC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886FFB51D4224BA0033FEC6 /* main.m */; };
+		2886FFB91D4224BA0033FEC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886FFB81D4224BA0033FEC6 /* AppDelegate.m */; };
+		2886FFBC1D4224BA0033FEC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886FFBB1D4224BA0033FEC6 /* ViewController.m */; };
+		2886FFBF1D4224BA0033FEC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2886FFBD1D4224BA0033FEC6 /* Main.storyboard */; };
+		2886FFC11D4224BA0033FEC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2886FFC01D4224BA0033FEC6 /* Assets.xcassets */; };
+		2886FFC41D4224BA0033FEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2886FFC21D4224BA0033FEC6 /* LaunchScreen.storyboard */; };
+		2886FFCF1D4224BA0033FEC6 /* AdsScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886FFCE1D4224BA0033FEC6 /* AdsScrollViewTests.m */; };
+		2886FFDA1D4224BA0033FEC6 /* AdsScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886FFD91D4224BA0033FEC6 /* AdsScrollViewUITests.m */; };
+		2886FFEE1D4225100033FEC6 /* AdScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886FFE91D4225100033FEC6 /* AdScrollView.m */; };
+		2886FFEF1D4225100033FEC6 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886FFEB1D4225100033FEC6 /* NSTimer+Addition.m */; };
+		2886FFF01D4225100033FEC6 /* UPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886FFED1D4225100033FEC6 /* UPage.m */; };
+		2886FFF21D4227260033FEC6 /* IMG_1878.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2886FFF11D4227260033FEC6 /* IMG_1878.jpg */; };
+		426AB6028339C88DE3E0637D /* libPods-AdsScrollViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C041DC8BCA06EF169B86E741 /* libPods-AdsScrollViewUITests.a */; };
+		AAD2CC245D15C52587C6580D /* libPods-AdsScrollViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AB612E38EF2E1D8657E2E6 /* libPods-AdsScrollViewTests.a */; };
+		AB15572AD5E24FA2994A4FC7 /* libPods-AdsScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EB01CEBBECA22C497B9B2F /* libPods-AdsScrollView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2886FFCB1D4224BA0033FEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2886FFA91D4224BA0033FEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2886FFB01D4224BA0033FEC6;
+			remoteInfo = AdsScrollView;
+		};
+		2886FFD61D4224BA0033FEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2886FFA91D4224BA0033FEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2886FFB01D4224BA0033FEC6;
+			remoteInfo = AdsScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2886FFB11D4224BA0033FEC6 /* AdsScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdsScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2886FFB51D4224BA0033FEC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2886FFB71D4224BA0033FEC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2886FFB81D4224BA0033FEC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2886FFBA1D4224BA0033FEC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2886FFBB1D4224BA0033FEC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2886FFBE1D4224BA0033FEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2886FFC01D4224BA0033FEC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2886FFC31D4224BA0033FEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2886FFC51D4224BA0033FEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2886FFCA1D4224BA0033FEC6 /* AdsScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdsScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2886FFCE1D4224BA0033FEC6 /* AdsScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsScrollViewTests.m; sourceTree = "<group>"; };
+		2886FFD01D4224BA0033FEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2886FFD51D4224BA0033FEC6 /* AdsScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdsScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2886FFD91D4224BA0033FEC6 /* AdsScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsScrollViewUITests.m; sourceTree = "<group>"; };
+		2886FFDB1D4224BA0033FEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2886FFE81D4225100033FEC6 /* AdScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdScrollView.h; sourceTree = "<group>"; };
+		2886FFE91D4225100033FEC6 /* AdScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdScrollView.m; sourceTree = "<group>"; };
+		2886FFEA1D4225100033FEC6 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		2886FFEB1D4225100033FEC6 /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		2886FFEC1D4225100033FEC6 /* UPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPage.h; sourceTree = "<group>"; };
+		2886FFED1D4225100033FEC6 /* UPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPage.m; sourceTree = "<group>"; };
+		2886FFF11D4227260033FEC6 /* IMG_1878.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1878.jpg; sourceTree = "<group>"; };
+		89AB612E38EF2E1D8657E2E6 /* libPods-AdsScrollViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdsScrollViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D9B3C0166C8997E18147A2 /* Pods-AdsScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdsScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdsScrollView/Pods-AdsScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		961B529B6BFB5EB890EADD95 /* Pods-AdsScrollViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdsScrollViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdsScrollViewTests/Pods-AdsScrollViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5187D2EAD7EF108BF5A4AD3 /* Pods-AdsScrollViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdsScrollViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdsScrollViewUITests/Pods-AdsScrollViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B638CC43C18F0C95E187185B /* Pods-AdsScrollViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdsScrollViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdsScrollViewUITests/Pods-AdsScrollViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9BAA31638C07A0989138EFE /* Pods-AdsScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdsScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdsScrollView/Pods-AdsScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		BE3B91BAD920424B28FF224B /* Pods-AdsScrollViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdsScrollViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdsScrollViewTests/Pods-AdsScrollViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C041DC8BCA06EF169B86E741 /* libPods-AdsScrollViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdsScrollViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EB01CEBBECA22C497B9B2F /* libPods-AdsScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdsScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2886FFAE1D4224BA0033FEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB15572AD5E24FA2994A4FC7 /* libPods-AdsScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2886FFC71D4224BA0033FEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD2CC245D15C52587C6580D /* libPods-AdsScrollViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2886FFD21D4224BA0033FEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426AB6028339C88DE3E0637D /* libPods-AdsScrollViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2236B7F08344F7CBF96CF439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9BAA31638C07A0989138EFE /* Pods-AdsScrollView.debug.xcconfig */,
+				95D9B3C0166C8997E18147A2 /* Pods-AdsScrollView.release.xcconfig */,
+				BE3B91BAD920424B28FF224B /* Pods-AdsScrollViewTests.debug.xcconfig */,
+				961B529B6BFB5EB890EADD95 /* Pods-AdsScrollViewTests.release.xcconfig */,
+				A5187D2EAD7EF108BF5A4AD3 /* Pods-AdsScrollViewUITests.debug.xcconfig */,
+				B638CC43C18F0C95E187185B /* Pods-AdsScrollViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2886FFA81D4224BA0033FEC6 = {
+			isa = PBXGroup;
+			children = (
+				2886FFB31D4224BA0033FEC6 /* AdsScrollView */,
+				2886FFCD1D4224BA0033FEC6 /* AdsScrollViewTests */,
+				2886FFD81D4224BA0033FEC6 /* AdsScrollViewUITests */,
+				2886FFB21D4224BA0033FEC6 /* Products */,
+				2236B7F08344F7CBF96CF439 /* Pods */,
+				5F79FB64D0B26CED44D2AC90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2886FFB21D4224BA0033FEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2886FFB11D4224BA0033FEC6 /* AdsScrollView.app */,
+				2886FFCA1D4224BA0033FEC6 /* AdsScrollViewTests.xctest */,
+				2886FFD51D4224BA0033FEC6 /* AdsScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2886FFB31D4224BA0033FEC6 /* AdsScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				2886FFE71D4225100033FEC6 /* AdsScrollView */,
+				2886FFB71D4224BA0033FEC6 /* AppDelegate.h */,
+				2886FFB81D4224BA0033FEC6 /* AppDelegate.m */,
+				2886FFBA1D4224BA0033FEC6 /* ViewController.h */,
+				2886FFBB1D4224BA0033FEC6 /* ViewController.m */,
+				2886FFF11D4227260033FEC6 /* IMG_1878.jpg */,
+				2886FFBD1D4224BA0033FEC6 /* Main.storyboard */,
+				2886FFC01D4224BA0033FEC6 /* Assets.xcassets */,
+				2886FFC21D4224BA0033FEC6 /* LaunchScreen.storyboard */,
+				2886FFC51D4224BA0033FEC6 /* Info.plist */,
+				2886FFB41D4224BA0033FEC6 /* Supporting Files */,
+			);
+			path = AdsScrollView;
+			sourceTree = "<group>";
+		};
+		2886FFB41D4224BA0033FEC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2886FFB51D4224BA0033FEC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2886FFCD1D4224BA0033FEC6 /* AdsScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2886FFCE1D4224BA0033FEC6 /* AdsScrollViewTests.m */,
+				2886FFD01D4224BA0033FEC6 /* Info.plist */,
+			);
+			path = AdsScrollViewTests;
+			sourceTree = "<group>";
+		};
+		2886FFD81D4224BA0033FEC6 /* AdsScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2886FFD91D4224BA0033FEC6 /* AdsScrollViewUITests.m */,
+				2886FFDB1D4224BA0033FEC6 /* Info.plist */,
+			);
+			path = AdsScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		2886FFE71D4225100033FEC6 /* AdsScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				2886FFE81D4225100033FEC6 /* AdScrollView.h */,
+				2886FFE91D4225100033FEC6 /* AdScrollView.m */,
+				2886FFEA1D4225100033FEC6 /* NSTimer+Addition.h */,
+				2886FFEB1D4225100033FEC6 /* NSTimer+Addition.m */,
+				2886FFEC1D4225100033FEC6 /* UPage.h */,
+				2886FFED1D4225100033FEC6 /* UPage.m */,
+			);
+			path = AdsScrollView;
+			sourceTree = "<group>";
+		};
+		5F79FB64D0B26CED44D2AC90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9EB01CEBBECA22C497B9B2F /* libPods-AdsScrollView.a */,
+				89AB612E38EF2E1D8657E2E6 /* libPods-AdsScrollViewTests.a */,
+				C041DC8BCA06EF169B86E741 /* libPods-AdsScrollViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2886FFB01D4224BA0033FEC6 /* AdsScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2886FFDE1D4224BA0033FEC6 /* Build configuration list for PBXNativeTarget "AdsScrollView" */;
+			buildPhases = (
+				AED39893272860E74D6D2CBC /* [CP] Check Pods Manifest.lock */,
+				2886FFAD1D4224BA0033FEC6 /* Sources */,
+				2886FFAE1D4224BA0033FEC6 /* Frameworks */,
+				2886FFAF1D4224BA0033FEC6 /* Resources */,
+				060740B1A56EC4D9FC644417 /* [CP] Embed Pods Frameworks */,
+				E71ABE17B2A3B4188AF3BC0E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdsScrollView;
+			productName = AdsScrollView;
+			productReference = 2886FFB11D4224BA0033FEC6 /* AdsScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2886FFC91D4224BA0033FEC6 /* AdsScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2886FFE11D4224BA0033FEC6 /* Build configuration list for PBXNativeTarget "AdsScrollViewTests" */;
+			buildPhases = (
+				E0406613DD719F0F29FC59FF /* [CP] Check Pods Manifest.lock */,
+				2886FFC61D4224BA0033FEC6 /* Sources */,
+				2886FFC71D4224BA0033FEC6 /* Frameworks */,
+				2886FFC81D4224BA0033FEC6 /* Resources */,
+				F45EDB4439627CF9855602F3 /* [CP] Embed Pods Frameworks */,
+				7D2D4AEB2CCFCFC43D47277C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2886FFCC1D4224BA0033FEC6 /* PBXTargetDependency */,
+			);
+			name = AdsScrollViewTests;
+			productName = AdsScrollViewTests;
+			productReference = 2886FFCA1D4224BA0033FEC6 /* AdsScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2886FFD41D4224BA0033FEC6 /* AdsScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2886FFE41D4224BA0033FEC6 /* Build configuration list for PBXNativeTarget "AdsScrollViewUITests" */;
+			buildPhases = (
+				B070EEF15D9A254FEA2E7992 /* [CP] Check Pods Manifest.lock */,
+				2886FFD11D4224BA0033FEC6 /* Sources */,
+				2886FFD21D4224BA0033FEC6 /* Frameworks */,
+				2886FFD31D4224BA0033FEC6 /* Resources */,
+				B5C8C6C00042489A725BF359 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2886FFD71D4224BA0033FEC6 /* PBXTargetDependency */,
+			);
+			name = AdsScrollViewUITests;
+			productName = AdsScrollViewUITests;
+			productReference = 2886FFD51D4224BA0033FEC6 /* AdsScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2886FFA91D4224BA0033FEC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bianruifeng;
+				TargetAttributes = {
+					2886FFB01D4224BA0033FEC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2886FFC91D4224BA0033FEC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2886FFB01D4224BA0033FEC6;
+					};
+					2886FFD41D4224BA0033FEC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2886FFB01D4224BA0033FEC6;
+					};
+				};
+			};
+			buildConfigurationList = 2886FFAC1D4224BA0033FEC6 /* Build configuration list for PBXProject "AdsScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2886FFA81D4224BA0033FEC6;
+			productRefGroup = 2886FFB21D4224BA0033FEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2886FFB01D4224BA0033FEC6 /* AdsScrollView */,
+				2886FFC91D4224BA0033FEC6 /* AdsScrollViewTests */,
+				2886FFD41D4224BA0033FEC6 /* AdsScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2886FFAF1D4224BA0033FEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2886FFC41D4224BA0033FEC6 /* LaunchScreen.storyboard in Resources */,
+				2886FFC11D4224BA0033FEC6 /* Assets.xcassets in Resources */,
+				2886FFBF1D4224BA0033FEC6 /* Main.storyboard in Resources */,
+				2886FFF21D4227260033FEC6 /* IMG_1878.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2886FFC81D4224BA0033FEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2886FFD31D4224BA0033FEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060740B1A56EC4D9FC644417 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdsScrollView/Pods-AdsScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2D4AEB2CCFCFC43D47277C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdsScrollViewTests/Pods-AdsScrollViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED39893272860E74D6D2CBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B070EEF15D9A254FEA2E7992 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5C8C6C00042489A725BF359 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdsScrollViewUITests/Pods-AdsScrollViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0406613DD719F0F29FC59FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E71ABE17B2A3B4188AF3BC0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdsScrollView/Pods-AdsScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F45EDB4439627CF9855602F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdsScrollViewTests/Pods-AdsScrollViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2886FFAD1D4224BA0033FEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2886FFF01D4225100033FEC6 /* UPage.m in Sources */,
+				2886FFEE1D4225100033FEC6 /* AdScrollView.m in Sources */,
+				2886FFBC1D4224BA0033FEC6 /* ViewController.m in Sources */,
+				2886FFB91D4224BA0033FEC6 /* AppDelegate.m in Sources */,
+				2886FFEF1D4225100033FEC6 /* NSTimer+Addition.m in Sources */,
+				2886FFB61D4224BA0033FEC6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2886FFC61D4224BA0033FEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2886FFCF1D4224BA0033FEC6 /* AdsScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2886FFD11D4224BA0033FEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2886FFDA1D4224BA0033FEC6 /* AdsScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2886FFCC1D4224BA0033FEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2886FFB01D4224BA0033FEC6 /* AdsScrollView */;
+			targetProxy = 2886FFCB1D4224BA0033FEC6 /* PBXContainerItemProxy */;
+		};
+		2886FFD71D4224BA0033FEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2886FFB01D4224BA0033FEC6 /* AdsScrollView */;
+			targetProxy = 2886FFD61D4224BA0033FEC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2886FFBD1D4224BA0033FEC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2886FFBE1D4224BA0033FEC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2886FFC21D4224BA0033FEC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2886FFC31D4224BA0033FEC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2886FFDC1D4224BA0033FEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2886FFDD1D4224BA0033FEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2886FFDF1D4224BA0033FEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BAA31638C07A0989138EFE /* Pods-AdsScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdsScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AdsScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2886FFE01D4224BA0033FEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D9B3C0166C8997E18147A2 /* Pods-AdsScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdsScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AdsScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2886FFE21D4224BA0033FEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3B91BAD920424B28FF224B /* Pods-AdsScrollViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdsScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AdsScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdsScrollView.app/AdsScrollView";
+			};
+			name = Debug;
+		};
+		2886FFE31D4224BA0033FEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961B529B6BFB5EB890EADD95 /* Pods-AdsScrollViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdsScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AdsScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdsScrollView.app/AdsScrollView";
+			};
+			name = Release;
+		};
+		2886FFE51D4224BA0033FEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5187D2EAD7EF108BF5A4AD3 /* Pods-AdsScrollViewUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AdsScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AdsScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdsScrollView;
+			};
+			name = Debug;
+		};
+		2886FFE61D4224BA0033FEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B638CC43C18F0C95E187185B /* Pods-AdsScrollViewUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AdsScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AdsScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdsScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2886FFAC1D4224BA0033FEC6 /* Build configuration list for PBXProject "AdsScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2886FFDC1D4224BA0033FEC6 /* Debug */,
+				2886FFDD1D4224BA0033FEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2886FFDE1D4224BA0033FEC6 /* Build configuration list for PBXNativeTarget "AdsScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2886FFDF1D4224BA0033FEC6 /* Debug */,
+				2886FFE01D4224BA0033FEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2886FFE11D4224BA0033FEC6 /* Build configuration list for PBXNativeTarget "AdsScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2886FFE21D4224BA0033FEC6 /* Debug */,
+				2886FFE31D4224BA0033FEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2886FFE41D4224BA0033FEC6 /* Build configuration list for PBXNativeTarget "AdsScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2886FFE51D4224BA0033FEC6 /* Debug */,
+				2886FFE61D4224BA0033FEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2886FFA91D4224BA0033FEC6 /* Project object */;
+}
